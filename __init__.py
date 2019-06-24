@@ -45,9 +45,9 @@ def error(message):
     message = "ERROR: " + message
     print (bcolors.BOLD + bcolors.FAIL + message + bcolors.ENDC)
 
-def info(msg):
+def info(message):
     message = "INFO: " + message
-    print (bcolors.BOLD + bcolors.OKGREEN + msg + bcolors.ENDC)
+    print (bcolors.BOLD + bcolors.OKGREEN + message + bcolors.ENDC)
 
 def pr_underline(message):
     print (bcolors.BOLD + bcolors.UNDERLINE + message + bcolors.ENDC)
